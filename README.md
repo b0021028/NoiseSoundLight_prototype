@@ -10,8 +10,15 @@
 - Ubuntu 23.x.x 64bit
 - Python 3.11.x
 
-## 導入方法
+## クイックスタート
 1. RaspberryPi4 に ubuntuをインストール
-2. setup.sh を実行
-3. USBマイク接続
-4. 
+2. NoiseSoundLight_prototype/ へ cd
+3. `source setup.sh` を実行 (sudo 要求あり)
+4. USBマイク接続
+5. gpio20 に 赤外線LEDと抵抗をつける
+6. `source activate.sh` を実行
+7. 大きく拍手すると 画面上に 1と表示され nec_onが動く
+
+## 赤外線登録
+- 赤外線登録には別途機器と irrp.py というプログラムが必要です
+- 
