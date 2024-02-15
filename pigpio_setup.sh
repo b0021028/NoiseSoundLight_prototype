@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install python3-setuptools python3-pip python3-venv portaudio19-dev
+sudo apt install -y python3-setuptools python3-pip python3-venv portaudio19-dev
 
 # pigpio install
 wget https://github.com/joan2937/pigpio/archive/refs/tags/v79.tar.gz
@@ -23,4 +23,4 @@ sudo pigpiod    # start daemon
 cd ..
 python3 -m venv .venv
 source .venv/bin/activate
-python3 -m pip install sounddevice
+python3 -m pip install -U -y sounddevice
