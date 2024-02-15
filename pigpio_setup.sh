@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo apt install python3-setuptools python3-pip 
 
 # pigpio install
 wget https://github.com/joan2937/pigpio/archive/refs/tags/v79.tar.gz
