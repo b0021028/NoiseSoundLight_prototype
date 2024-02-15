@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from inputlayer import SoundValidation
 from outputlayer import Output
 from storage import FunctionStorage
