@@ -1,0 +1,90 @@
+[
+    {
+        "name": "nec_on",
+        "catch": [
+            {
+                "knock": 1
+            }
+        ],
+        "func": [
+            "nec_on"
+        ]
+    },
+    {
+        "name": "nec_off",
+        "catch": [
+            {
+                "knock": 2
+            }
+        ],
+        "func": [
+            "nec_off"
+        ]
+    },
+    {
+        "name": "nec_tune",
+        "catch": [
+            {
+                "knock": 3
+            }
+        ],
+        "func": [
+            "nec_tune"
+        ]
+    },
+    {
+        "name": "rgb_on",
+        "catch": [
+            {
+                "knock": 1
+            }
+        ],
+        "func": [
+            "rgb_on","rgb_white"
+        ]
+    },
+    {
+        "name": "rgb_off",
+        "catch": [
+            {
+                "knock": 2
+            }
+        ],
+        "func": [
+            "rgb_off"
+        ]
+    },
+    {
+        "name": "rgb_blue",
+        "catch": [
+            {
+                "knock": 3
+            }
+        ],
+        "func": [
+            "rgb_on","rgb_blue"
+        ]
+    },
+    {
+        "name": "rgb_green",
+        "catch": [
+            {
+                "knock": 4
+            }
+        ],
+        "func": [
+            "rgb_on","rgb_green"
+        ]
+    },
+    {
+        "name": "rgb_red",
+        "catch": [
+            {
+                "knock": 5
+            }
+        ],
+        "func": [
+            "rgb_on","rgb_red"
+        ]
+    }
+]
