@@ -20,6 +20,6 @@ sudo DEBIAN_FRONTEND=nointeractive apt install -y python3-setuptools python3-pip
 # cd ..
 python3 -m venv .venv
 source .venv/bin/activate
-python3 -m pip install -U sounddevice numpy
+python3 -m pip install -U sounddevice numpy pigpio
 deactivate
 
